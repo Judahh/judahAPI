@@ -1,7 +1,4 @@
-// import * as http from 'http';
-// import * as debug from 'debug';
 import express = require('express');
-
 import {API} from './aPI/aPI';
 
 let api = new API(express(), normalizePort(process.env.PORT || 3000));
