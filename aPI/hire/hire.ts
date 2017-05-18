@@ -15,19 +15,19 @@ export class Hire {
   /**
    * GET all Heroes.
    */
-  public getAll(req: Request, res: Response, next: NextFunction) {
-    res.send("formA:"+JSON.stringify(req.body));
+  public getAll(request: Request, response: Response, nextFunction: NextFunction) {
+    response.send("formA:"+JSON.stringify(request.body));
   }
 
   /**
    * GET one hero by id
    */
-  public getOne(req: Request, res: Response, next: NextFunction) {
-    res.send("formA:"+req.params._body+req.params.body+req.params.form);
+  public getOne(request: Request, response: Response, nextFunction: NextFunction) {
+    response.send("formA:"+request.params._body+request.params.body+request.params.form);
   }
 
   /**
-   * Take each handler, and attach to one of the Express.Router's
+   * Take each handler, and attach to one of the Expresponses.Router's
    * endpoints.
    */
   init() {
@@ -39,7 +39,7 @@ export class Hire {
 
 }
 
-// Create the HeroRouter, and export its configured Express.Router
+// Create the HeroRouter, and export its configured Expresponses.Router
 const hire = new Hire();
 hire.init();
 
