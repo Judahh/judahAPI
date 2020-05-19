@@ -85,7 +85,7 @@
     "postcss-cssnext": "^2.11.0",
     "postcss-nested": "^2.0.2",
     "postcss-simple-vars": "^4.0.0",
-    "protractor": "5.1.2",
+    "protractor": "7.0.0",
     "pug": "^2.0.0-rc.1",
     "pug-cli": "^1.0.0-alpha6",
     "shx": "^0.2.2",
