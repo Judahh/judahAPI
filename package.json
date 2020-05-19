@@ -58,7 +58,7 @@
     "angular-cli": "1.0.0-beta.28.3",
     "babel-traverse": "6.24.1",
     "babel-types": "6.24.1",
-    "babylon": "6.17.1",
+    "babylon": "6.18.0",
     "codelyzer": "3.0.1",
     "concurrently": "^3.4.0",
     "gulp": "^3.9.1",
